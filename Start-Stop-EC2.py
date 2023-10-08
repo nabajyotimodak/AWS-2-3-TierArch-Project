@@ -2,7 +2,7 @@
 
 import boto3
 region = 'us-east-1'
-instances = ['i-04aef953ced4008a9', 'i-04aedskjgdcd45j45']
+instances = ['i-04aef953ced4008a9', 'i-04aedskjgdcd45j45']              # Change the Instance ID accordingly & Runtime Python 3.9
 ec2 = boto3.client('ec2', region_name=region)
 
 def lambda_handler(event, context):
@@ -15,7 +15,7 @@ def lambda_handler(event, context):
 
 import boto3
 region = 'us-east-1'
-instances = ['i-04aef953ced4008a9']
+instances = ['i-04aef953ced4008a9']                                 # Change the Instance ID accordingly & Runtime Python 3.9
 ec2 = boto3.client('ec2', region_name=region)
 
 def lambda_handler(event, context):
